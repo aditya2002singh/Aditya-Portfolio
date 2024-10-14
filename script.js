@@ -91,7 +91,7 @@ function openGmail() {
 function downloadCV() {
   const link = document.createElement("a");
   link.href = "images/Aditya.pdf"; // Path to your resume file
-  link.download = "ADITYA SINGH Resume"; // Name for the downloaded file
+  link.download = "Aditya Singh Resume"; // Name for the downloaded file
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
